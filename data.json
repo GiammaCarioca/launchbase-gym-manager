@@ -21,17 +21,6 @@
       "blood": "O+",
       "weight": "98",
       "height": "188"
-    },
-    {
-      "id": 3,
-      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
-      "name": "Robyn",
-      "email": "robyn@fentycorp.co",
-      "birth": 571968000000,
-      "gender": "F",
-      "blood": "A+",
-      "weight": "72",
-      "height": "182"
     }
   ],
   "instructors": [
