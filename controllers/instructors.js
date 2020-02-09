@@ -6,6 +6,10 @@ exports.index = function(req, res) {
 	return res.render('instructors/index', { instructors: data.instructors })
 }
 
+exports.create = function(req, res) {
+	return res.render('instructors/create')
+}
+
 exports.show = function(req, res) {
 	const { id } = req.params
 
@@ -25,10 +29,6 @@ exports.show = function(req, res) {
 	}
 
 	return res.render('instructors/show', { instructor })
-}
-
-exports.create = function(req, res) {
-	return res.render('instructors/create')
 }
 
 exports.post = function(req, res) {
@@ -59,10 +59,8 @@ exports.post = function(req, res) {
 	fs.writeFile('data.json', JSON.stringify(data, null, 2), function(err) {
 		if (err) return res.send('Write file error!')
 
-		return res.redirect('/instructors')
+		return res.redirect(`/instructors/${id}`)
 	})
-
-	return
 }
 
 exports.edit = function(req, res) {
