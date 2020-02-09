@@ -42,7 +42,7 @@ exports.post = function(req, res) {
 
 	let { avatar_url, birth, name, services, gender } = req.body
 
-	birth = Date.parse(req.body.birth)
+	birth = Date.parse(birth)
 	const created_at = Date.now()
 	const id = Number(data.instructors.length + 1)
 
