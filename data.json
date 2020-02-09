@@ -1,23 +1,32 @@
 {
-	"members": [],
-	"instructors": [
-		{
-			"id": 1,
-			"name": "Giamma",
-			"avatar_url": "https://images.unsplash.com/photo-1532384555668-bc0c32a17ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-			"birth": 395625600000,
-			"gender": "M",
-			"services": "Crossfit, Musculação",
-			"created_at": 1581115159713
-		},
-		{
-			"id": 2,
-			"name": "Robyn Rihanna Fenty",
-			"avatar_url": "https://images.unsplash.com/photo-1434608519344-49d77a699e1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80",
-			"birth": 572313600000,
-			"gender": "F",
-			"services": "Crossfit, Musculação, Natação",
-			"created_at": 1581184534617
-		}
-	]
+  "members": [
+    {
+      "id": 1,
+      "name": "Thiago",
+      "avatar_url": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "birth": 395625600000,
+      "gender": "M",
+      "created_at": 1581254871532
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "name": "Giamma",
+      "avatar_url": "https://images.unsplash.com/photo-1532384555668-bc0c32a17ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "birth": 395625600000,
+      "gender": "M",
+      "services": "Crossfit, Musculação",
+      "created_at": 1581115159713
+    },
+    {
+      "id": 2,
+      "name": "Robyn Rihanna Fenty",
+      "avatar_url": "https://images.unsplash.com/photo-1434608519344-49d77a699e1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80",
+      "birth": 572313600000,
+      "gender": "F",
+      "services": "Crossfit, Musculação, Natação",
+      "created_at": 1581184534617
+    }
+  ]
 }
