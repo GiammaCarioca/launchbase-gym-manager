@@ -62,14 +62,14 @@ exports.edit = function(req, res) {
 	const { id } = req.params
 
 	const foundMember = data.members.find(function(member) {
-		return id == instructor.id
+		return id == member.id
 	})
 
 	if (!foundMember) return res.send('Member not found!')
 
 	const member = {
 		...foundMember,
-		birth: date(foundMember.birth)
+		birth: date(foundMember.birth).iso
 	}
 
 	return res.render('members/edit', { member })
