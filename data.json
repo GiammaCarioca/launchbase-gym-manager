@@ -32,17 +32,6 @@
       "blood": "A+",
       "weight": "72",
       "height": "182"
-    },
-    {
-      "id": 4,
-      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
-      "name": "David Beckham",
-      "email": "david@beckham.com",
-      "birth": 199065600000,
-      "gender": "M",
-      "blood": "B+",
-      "weight": "195",
-      "height": "184"
     }
   ],
   "instructors": [
